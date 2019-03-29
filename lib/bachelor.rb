@@ -49,5 +49,6 @@ def get_average_age_for_season(data, season)
     end# code here
     number = age_array.reduce/age_array.length
     number
+    binding.pry
 
 end
