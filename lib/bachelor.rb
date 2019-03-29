@@ -1,5 +1,5 @@
 
-require "pry"
+#require "pry"
 
 def get_first_name_of_season_winner(data, season)
   data[season].each do |contestant|
@@ -48,7 +48,7 @@ def get_average_age_for_season(data, season)
       contestant["age"].to_i
 
     #  contestant.each do |cont_data|
-        binding.pry
+
 
 
     #end# code here
