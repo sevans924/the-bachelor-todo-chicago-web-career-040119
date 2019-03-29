@@ -48,7 +48,7 @@ def get_average_age_for_season(data, season)
 contestant["age"]
     #  contestant.each do |cont_data|
         binding.pry
-      
+
 
     #end# code here
   end
