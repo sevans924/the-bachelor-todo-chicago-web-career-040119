@@ -14,7 +14,7 @@ def get_contestant_name(data, occupation)
   data.each do |season, contestant|
     contestant.each do |cont_data|
       if cont_data["occupation"] == occupation
-         return cont_data["name"].reduce
+         return cont_data["name"]
        end
        end
      end# code here
@@ -45,7 +45,7 @@ end
 def get_average_age_for_season(data, season)
 
     data[season].map do |contestant|
-      contestant["age"].to_i
+      contestant["age"].to_i.reduce
 
     #  contestant.each do |cont_data|
 
