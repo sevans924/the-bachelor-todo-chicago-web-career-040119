@@ -47,6 +47,6 @@ def get_average_age_for_season(data, season)
       age_array.push(contestant["age"].to_i)
 
     end# code here
-    age_array
+    age_array.reduce / age_array.length
     binding.pry
 end
