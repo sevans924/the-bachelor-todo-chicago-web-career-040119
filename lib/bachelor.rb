@@ -9,6 +9,7 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |season, contestant|
+    contestant.each do |cont_data|
       if contestant["occupation"].downcase == occupation
          return contestant["name"]
        end
