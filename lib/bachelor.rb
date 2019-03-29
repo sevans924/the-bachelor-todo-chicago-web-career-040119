@@ -9,8 +9,8 @@ end
 
 def get_contestant_name(data, occupation)
   data[season].each do |contestant|
-      if contestant["status"].downcase == "winner"
-         return contestant["name"].split(" ").first
+      if contestant["occupation"].downcase == occupation
+         return contestant["name"]
        end
      end# code here
 end
