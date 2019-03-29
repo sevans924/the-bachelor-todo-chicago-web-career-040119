@@ -50,5 +50,5 @@ age_array = []
     #  contestant.each do |cont_data|
     #end# code here
   end
-  age_array
+  age_array.reduce(:+)
 end
