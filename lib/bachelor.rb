@@ -51,5 +51,5 @@ age_array = []
     #end# code here
   end
   (age_array.reduce(:+) / age_array.size).ceil
-  
+
 end
