@@ -1,4 +1,4 @@
-require "pry"
+
 
 def get_first_name_of_season_winner(data, season)
   data[season].each do |contestant|
@@ -48,5 +48,5 @@ def get_average_age_for_season(data, season)
 
     end# code here
     age_array.reduce / age_array.length
-    binding.pry
+
 end
