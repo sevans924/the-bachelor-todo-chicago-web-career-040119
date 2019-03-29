@@ -50,6 +50,6 @@ age_array = []
     #  contestant.each do |cont_data|
     #end# code here
   end
-  age_array.reduce(:+) / age_array.size 
+  (age_array.reduce(:+) / age_array.size).round(0) 
 
 end
