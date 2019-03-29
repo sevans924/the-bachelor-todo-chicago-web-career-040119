@@ -13,6 +13,7 @@ def get_contestant_name(data, occupation)
       if cont_data["occupation"].downcase == occupation
          return contestant["name"]
        end
+       end
      end# code here
 end
 
