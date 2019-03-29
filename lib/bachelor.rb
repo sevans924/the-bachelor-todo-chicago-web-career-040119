@@ -53,5 +53,5 @@ age_array = []
 
     #end# code here
   end
-age_array
+age_array.reduce
 end
